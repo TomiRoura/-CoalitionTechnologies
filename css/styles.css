@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Bebas;
+    src: url(Bebas-Regular);
+  }
+
+.LATitle{
+font-family: 'Bebas', sans-serif;
+}
+
+.mountainsTitle{
+    font-family: 'Bebas', sans-serif; 
+}
