@@ -1,0 +1,11 @@
+.carousel{
+    display: flex;
+    position: absolute;
+    margin-top: 49.5vw;
+    margin-left: 20%;
+}
+
+.carouselImg{
+    width: 14vw;
+    margin-left: 1vw;
+}
