@@ -17,8 +17,6 @@ body{
     
 }
 
-
-
 .navbar{
     position: absolute;
     right: 20.2vw;
@@ -41,7 +39,6 @@ a.linksFirstDiv:hover {
    color: rgb(205, 205, 205);
    transition: 0.5s;
   }
-
 
 .background2{
     width: 100%;
@@ -75,10 +72,9 @@ a.linksSecDiv:hover {
 .navThird{
     position: absolute;
     left: 18vw;
-    margin-top: 12vw;
+    margin-top: 11.26vw;
     display: flex;
     z-index: 2;
-
 }
 
 a.linksThirdDiv{
@@ -86,18 +82,14 @@ a.linksThirdDiv{
     color: #b0b4be;
     text-decoration: none;
     cursor: pointer;
+    border: 0.7vw solid transparent;
 }
 
+a.linksThirdDiv:hover {
+    color: #414f6b;
+    background-color: #d0d0d0;
+    border: 0.7vw solid #d0d0d0;
+    text-decoration:underline;
+   }
 
-.footerLogo{
-    position: absolute;
-    width: 12vw;
-    left: 20%;
-    margin-top: 0.6vw;
-}
 
-.footer{
-    height: 5.2vw;
-    background-color: #414f6b;
-    margin-top: -5px;
-}
