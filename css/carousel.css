@@ -1,11 +1,26 @@
-.carousel{
+.carousel {
     display: flex;
     position: absolute;
     margin-top: 50%;
-    margin-left: 20%;
+    margin-left: 18%;
+    z-index: 10;
 }
 
-.carouselImg{
+.carouselImg {
     width: 14vw;
-    margin-left: 1vw;
+}
+
+.splide__arrow--prev {
+    margin-left: -5vw;
+}
+
+.splide__arrow--next {
+    margin-right: -5vw;
+}
+
+
+
+.splide__pagination__page {
+    opacity: 10;
+    bottom: -2.5vw;
 }
