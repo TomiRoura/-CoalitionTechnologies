@@ -12,15 +12,25 @@
 
 .splide__arrow--prev {
     margin-left: -5vw;
+
 }
 
 .splide__arrow--next {
     margin-right: -5vw;
 }
 
-
-
 .splide__pagination__page {
-    opacity: 10;
     bottom: -2.5vw;
+}
+
+
+@media (max-width: 1000px) {
+    .splide__arrow--prev {
+        margin-left: -10vw;
+
+    }
+
+    .splide__arrow--next {
+        margin-right: -10vw;
+    }
 }
